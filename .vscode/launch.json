@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CONFIGURACION_BASE",
+            "request": "launch",
+            "type": "dart",
+            "toolArgs": [
+                "--dart-define",
+                "API_KEY=1622d98b0a3606bc0a569017739378db",
+                "--dart-define",
+                "PLACES_API_KEY=AIzaSyDy1HvcoVMVBUvNm79716Zr5mTkMzDbKGs",
+                "--dart-define",
+                "GEOCODE_API_KEY=AIzaSyB4ALRxVTVx54Cne13sBdcbU5TACPHVLhY",
+                                
+            ]
+            
+        },
+        {
+            "name": "flutter_prueba_tecnica (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_prueba_tecnica (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
