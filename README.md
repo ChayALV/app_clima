@@ -10,6 +10,7 @@ Hola que tal esta es la pueba tecnica que consiste en el diseño y consumo de ap
 - ejecutar el comando [flutter pub get]
 una vez echo esto es muy importante ir a VSCODE y en la pantalla de [RUN AND DEBUG], Escojer la opción de [CONFIGURACION BASE]
 - Como se muesta en la imagen:
+- 
 ![Captura de pantalla de RUN AND DEBUG](https://github.com/ChayALV/app_clima/blob/main/assets/Captura%20de%20pantalla%202023-03-22%20184400.png)
 
 #### En caso de no usar VSCODE tengra que:
