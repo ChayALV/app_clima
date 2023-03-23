@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
           BlocProvider(create: (_) => WeatherBloc(
             RepositoryProvider.of<WeatherRepositorie>(_),
             RepositoryProvider.of<LatLongRpositorie>(_),
-             RepositoryProvider.of<SPRepositorie>(_),
+            RepositoryProvider.of<SPRepositorie>(_),
 
           )),
           BlocProvider(create: (_) => PlacesBloc(

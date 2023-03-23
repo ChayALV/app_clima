@@ -4,6 +4,7 @@ abstract class WeatherState {}
 
 class WeatherBlocInitial extends WeatherState {}
 class LoadingWeatherState extends WeatherState {}
+class NoInternetWeatherState extends WeatherState {}
 class LoadedWeatherState extends WeatherState {
   final WeatherModel weather;
   final List<String> countries;

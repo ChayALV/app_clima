@@ -6,7 +6,7 @@ class TemperatureComverter{
   }
   static double kelvinToFahrenheit(double temperature){
     const double constFahrenheit = 273.15;
-    double conversion =(temperature - constFahrenheit) * 9/5 + 32;
+    double conversion =((temperature - constFahrenheit)* 1.8 ) + 32;
     return double.parse(conversion.toStringAsFixed(3));
   }
 }

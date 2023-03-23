@@ -28,6 +28,7 @@ class WeatherBloc extends Bloc<WeatherBlocEvent, WeatherState> {
         Emitter<WeatherState> emit
     ) async{
       emit(LoadingWeatherState());
+       
       try {
         List<String>? countries = await _sPRepositorie.getKeysOfCountries();
         Map<String,String> location = await _latLongRpositorie.getLocation();
