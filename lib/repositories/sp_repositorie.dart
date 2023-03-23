@@ -1,5 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
+
 class SPRepositorie {
   
   Future<List<String>?> getKeysOfCountries() async{
